@@ -1,0 +1,20 @@
+bibentry(bibtype = "Article",
+  title        = "Standard Errors and Sample Sizes for Two-Level Research",
+  author       = c(person(given = c("Tom", "A.", "B."),
+                          family = "Snijders"),
+                   person(given = c("Roel", "J."))),
+  journal      = "Journal of Educational and Behavioral Statistics",
+  year         = "1993",
+  volume       = "18",
+  number       = "3",
+  pages        = "237--259",
+  doi          = "https://doi.org/10.3102/10769986018003237",
+
+  header       = "To cite PINT in publications use:",
+  textVersion  =
+  paste("Snijders, T. A. B., & Bosker, R. J. (1993). ",
+        "Standard Errors and Sample Sizes for Two-Level Research. ",
+        "Journal of Educational Statistics, 18(3), 237–259. ",
+        "https://doi.org/10.3102/10769986018003237")
+)
+

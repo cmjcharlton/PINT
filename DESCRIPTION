@@ -1,0 +1,15 @@
+Package: PINT
+Title: Power analysis IN Two-level designs
+Version: 2.13.0.0000
+Authors@R: 
+    c(person("Tom", "Snijders", , "t.a.b.snijders@rug.nl", role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0003-3157-4157")),
+    person("Roel", "Bosker", , "r.j.bosker@rug.nl", role = c("aut"),
+           comment = c(ORCID = "0000-0002-1495-7298")),
+    person("Henk", "Guldemond", , , role = c("aut")),
+    person("Chris", "Charlton", , "c.charlton@bristol.ac.uk", role = c("aut", "cre")))
+Description: This program calculates standard errors for two-level designs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
