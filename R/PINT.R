@@ -13,7 +13,7 @@
 #' @param sigmab : covariance matrix of the level-2 variables first constant, then true level-2 variable, then level-2 average of the level-1 variable with fixed effects
 #' @param mu1    : means of the level-2 means of the level-1 variables with fixed effects
 #' @param mu3    : means of the variables belonging to sigma(s) excl. level-2 averages of level-1 variables included in mu1
-#' @return a PiNTresult object
+#' @return a PINTresult object
 #' @export
 PINT <- function(start, step, end, n2min = NA, n2max = NA, cost = NA, extra = NA, resid, tau2, sigmaw = NULL, sigmab = NULL, mu1 = NULL, mu3 = NULL) {
   # Get dimensions from provided matrices
@@ -245,7 +245,12 @@ PINT <- function(start, step, end, n2min = NA, n2max = NA, cost = NA, extra = NA
   return(output)
 }
 
-#'@export
+#' Print output from PINT function
+#'
+#' @param x PINTresult object to display
+#' @param ... further arguments passed to or from other methods.
+#' @return invisible(x)
+#' @export
 print.PINTresult <- function(x, ...) {
   cat("Design:\n")
   cat("(Between parentheses, the symbol is mentioned that is used for this parameter;\n")
@@ -303,4 +308,5 @@ print.PINTresult <- function(x, ...) {
   }
   cat("\n")
   print(x$results)
+  return(invisible(x))
 }

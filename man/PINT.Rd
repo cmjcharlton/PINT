@@ -48,7 +48,7 @@ PINT(
 \item{mu3}{: means of the variables belonging to sigma(s) excl. level-2 averages of level-1 variables included in mu1}
 }
 \value{
-a PiNTresult object
+a PINTresult object
 }
 \description{
 Performs power calculations
