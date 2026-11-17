@@ -8,7 +8,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-1495-7298")),
     person("Henk", "Guldemond", , , role = c("aut")),
     person("Chris", "Charlton", , "c.charlton@bristol.ac.uk", role = c("aut", "cre")))
-Description: This program calculates standard errors for two-level designs.
+Description: Calculates standard errors for two-level designs.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
